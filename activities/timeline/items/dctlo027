@@ -5,6 +5,9 @@
     "@type": "reproschema:Field",
     "@id": "dctlo027",
     "ui": {
+        "allow": [
+            "autoAdvance"
+        ],
         "inputType": "radio"
     },
     "question": "Date at beginning of school year (Month)",
