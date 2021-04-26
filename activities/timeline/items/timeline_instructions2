@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "timeline_instructions2",
-    "preamble": "School functioning",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "markdown-message"
     },
+    "question": "### School functioning\r\n\r\nThe next questions refer to the current school year (when on summer break refer to the past school year).",
     "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
-    "question": "The next questions refer to the current school year (when on summer break refer to the past school year).",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

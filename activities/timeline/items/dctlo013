@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo013",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
     "question": "Parental marriage/separation/divorce",
-    "schema:description": "NA"
+    "responseOptions": {
+        "requiredValue": ""
+    }
 }

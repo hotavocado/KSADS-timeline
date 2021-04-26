@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo017",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
     "question": "Changing schools (grade school to junior high to high school to moves)\n",
-    "schema:description": "NA"
+    "responseOptions": {
+        "requiredValue": ""
+    }
 }

@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo010",
-    "preamble": "Home",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
+    "question": "### Home\r\n\r\nWhere did you first live when you were growing up?",
     "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
-    "question": "Where did you first live when you were growing up?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

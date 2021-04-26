@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo012",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
     "question": "Any moves?",
-    "schema:description": "NA"
+    "responseOptions": {
+        "requiredValue": ""
+    }
 }

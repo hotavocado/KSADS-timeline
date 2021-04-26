@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo062",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "What about problems with the way you act, things you do, or your behavior?",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -30,8 +29,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "What about problems with the way you act, things you do, or your behavior?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

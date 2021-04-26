@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "timeline_title",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "markdown-message"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
     "question": "## Timeline",
-    "schema:description": "NA"
+    "responseOptions": {
+        "requiredValue": ""
+    }
 }

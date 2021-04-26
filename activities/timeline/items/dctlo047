@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo047",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "Would you say that (child's name) has personality traits that cause problems for him/her?",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -30,8 +29,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "Would you say that (child's name) has personality traits that cause problems for him/her?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

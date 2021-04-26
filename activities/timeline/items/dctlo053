@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo053",
-    "preamble": "Child about self",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
+    "question": "### Child about self\r\n\r\nWhat do you enjoy most? (e.g. hobbies, sports, clubs, etc.)",
     "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
-    "question": "What do you enjoy most? (e.g. hobbies, sports, clubs, etc.)",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo052",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "Is he/she sensitive to the feelings of others? Too sensitive?",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -30,8 +29,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "Is he/she sensitive to the feelings of others? Too sensitive?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

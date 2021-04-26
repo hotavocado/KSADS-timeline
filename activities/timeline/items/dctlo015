@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo015",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
     "question": "How well do you get a long with your parents and siblings?  Do you do things together?",
-    "schema:description": "NA"
+    "responseOptions": {
+        "requiredValue": ""
+    }
 }

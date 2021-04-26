@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo032",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "Arithmetic/Math",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -35,8 +34,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "Arithmetic/Math",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

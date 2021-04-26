@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo045",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "With friends?",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -30,8 +29,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "With friends?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

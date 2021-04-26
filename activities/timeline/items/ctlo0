@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "ctlo0",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "Is child out of high school?",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -25,8 +24,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "Is child out of high school?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo041",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "How much time do you spend playing video/computer games every week? After school? After dinner? On Saturday or Sunday?",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -45,8 +44,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "How much time do you spend playing video/computer games every week? After school? After dinner? On Saturday or Sunday?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

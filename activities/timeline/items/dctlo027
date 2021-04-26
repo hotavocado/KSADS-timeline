@@ -4,15 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo027",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
-        "inputType": "select"
+        "inputType": "radio"
     },
+    "question": "Date at beginning of school year (Month)",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -90,8 +86,7 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
+        "requiredValue": ""
     },
-    "question": "Date at beginning of school year (Month)",
     "schema:description": "MONTH"
 }

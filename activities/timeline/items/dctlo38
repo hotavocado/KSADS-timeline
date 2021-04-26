@@ -4,7 +4,6 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo38",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance",
@@ -12,8 +11,8 @@
         ],
         "inputType": "radio"
     },
+    "question": "Other subject 3",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -36,8 +35,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "Other subject 3",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

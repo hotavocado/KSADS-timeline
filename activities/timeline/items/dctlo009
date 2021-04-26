@@ -4,15 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo009",
-    "preamble": "NA",
     "ui": {
-        "allow": [
-            "NA"
-        ],
-        "inputType": "select"
+        "inputType": "radio"
     },
+    "question": "What is your grade in school? (or last completed grade)",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 100,
@@ -120,8 +116,7 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
+        "requiredValue": ""
     },
-    "question": "What is your grade in school? (or last completed grade)",
     "schema:description": "GRADE"
 }

@@ -4,23 +4,11 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo020",
-    "preamble": "Peers",
     "ui": {
-        "allow": [
-            "NA"
-        ],
         "inputType": "text"
     },
+    "question": "### Peers\r\n\r\nDo you have friends in school?",
     "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "requiredValue": "NA"
-    },
-    "question": "Do you have friends in school?",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }

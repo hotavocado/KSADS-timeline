@@ -4,15 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "@id": "dctlo039",
-    "preamble": "NA",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
+    "question": "Are there different reading and arithmetic groups in your class at school? Which group are you in? \r\n\r\n _INTERVIEWER: Review ratings (specify academic \"track\" or group). If discrepancies exist, make notes but code for highest achievement._",
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -40,8 +39,6 @@
                 "@type": "schema:option"
             }
         ],
-        "requiredValue": "NA"
-    },
-    "question": "Are there different reading and arithmetic groups in your class at school? Which group are you in? \r\n\r\n _INTERVIEWER: Review ratings (specify academic \"track\" or group). If discrepancies exist, make notes but code for highest achievement._",
-    "schema:description": "NA"
+        "requiredValue": ""
+    }
 }
