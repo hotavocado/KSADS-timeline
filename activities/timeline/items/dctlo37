@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dctlo37",
+    "preamble": "NA",
+    "ui": {
+        "allow": [
+            "dontKnow"
+        ],
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": "NA"
+    },
+    "question": "Other subject 3 (list here)",
+    "schema:description": "OTHER SUBJECT 3"
+}

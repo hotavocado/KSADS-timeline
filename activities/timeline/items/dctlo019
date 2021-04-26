@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dctlo019",
+    "preamble": "NA",
+    "ui": {
+        "allow": [
+            "NA"
+        ],
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": "NA"
+    },
+    "question": "Do you (your child) have an Individualized Educational Plan (IEP)? If yes, what is the reason? Learning and/or emotional problems? Describe:\n",
+    "schema:description": "NA"
+}

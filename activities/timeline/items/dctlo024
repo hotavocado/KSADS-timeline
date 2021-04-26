@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dctlo024",
+    "preamble": "NA",
+    "ui": {
+        "allow": [
+            "NA"
+        ],
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": "NA"
+    },
+    "question": "Do you often fight/argue with friends?",
+    "schema:description": "NA"
+}

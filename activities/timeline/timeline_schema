@@ -1,0 +1,397 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-timeline/master/activities/timeline/timeline_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "timeline_schema",
+    "skos:prefLabel": "Timeline",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "timeline_title",
+                "isAbout": "timeline_title",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo005",
+                "isAbout": "dctlo005",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo008",
+                "isAbout": "dctlo008",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo009",
+                "isAbout": "dctlo009",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "timeline_instructions1",
+                "isAbout": "timeline_instructions1",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo010",
+                "isAbout": "dctlo010",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo011",
+                "isAbout": "dctlo011",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo012",
+                "isAbout": "dctlo012",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo013",
+                "isAbout": "dctlo013",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo014",
+                "isAbout": "dctlo014",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo015",
+                "isAbout": "dctlo015",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo016",
+                "isAbout": "dctlo016",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo017",
+                "isAbout": "dctlo017",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo018",
+                "isAbout": "dctlo018",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo019",
+                "isAbout": "dctlo019",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo020",
+                "isAbout": "dctlo020",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo021",
+                "isAbout": "dctlo021",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo022",
+                "isAbout": "dctlo022",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo023",
+                "isAbout": "dctlo023",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo024",
+                "isAbout": "dctlo024",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo025",
+                "isAbout": "dctlo025",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo026",
+                "isAbout": "dctlo026",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "timeline_instructions2",
+                "isAbout": "timeline_instructions2",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "ctlo0",
+                "isAbout": "ctlo0",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo027",
+                "isAbout": "dctlo027",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo028",
+                "isAbout": "dctlo028",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "timeline_instructions3",
+                "isAbout": "timeline_instructions3",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo031",
+                "isAbout": "dctlo031",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo032",
+                "isAbout": "dctlo032",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo33",
+                "isAbout": "dctlo33",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo34",
+                "isAbout": "dctlo34",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo35",
+                "isAbout": "dctlo35",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo36",
+                "isAbout": "dctlo36",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo37",
+                "isAbout": "dctlo37",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo38",
+                "isAbout": "dctlo38",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo039",
+                "isAbout": "dctlo039",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo039_notes",
+                "isAbout": "dctlo039_notes",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo040",
+                "isAbout": "dctlo040",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo041",
+                "isAbout": "dctlo041",
+                "isVis": "ctlo0 == '1'"
+            },
+            {
+                "variableName": "dctlo042",
+                "isAbout": "dctlo042",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo043",
+                "isAbout": "dctlo043",
+                "isVis": "dctlo042 == '1'"
+            },
+            {
+                "variableName": "dctlo044",
+                "isAbout": "dctlo044",
+                "isVis": "dctlo042 == '1'"
+            },
+            {
+                "variableName": "dctlo045",
+                "isAbout": "dctlo045",
+                "isVis": "dctlo042 == '1'"
+            },
+            {
+                "variableName": "dctlo046",
+                "isAbout": "dctlo046",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo047",
+                "isAbout": "dctlo047",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo048",
+                "isAbout": "dctlo048",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo049",
+                "isAbout": "dctlo049",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo050",
+                "isAbout": "dctlo050",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo051",
+                "isAbout": "dctlo051",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo052",
+                "isAbout": "dctlo052",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo053",
+                "isAbout": "dctlo053",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo054",
+                "isAbout": "dctlo054",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo055",
+                "isAbout": "dctlo055",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo056",
+                "isAbout": "dctlo056",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo057",
+                "isAbout": "dctlo057",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo058",
+                "isAbout": "dctlo058",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo059",
+                "isAbout": "dctlo059",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo060",
+                "isAbout": "dctlo060",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo061",
+                "isAbout": "dctlo061",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo062",
+                "isAbout": "dctlo062",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo063",
+                "isAbout": "dctlo063",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "dctlo064",
+                "isAbout": "dctlo064",
+                "isVis": "NA"
+            },
+            {
+                "variableName": "ctlo_end",
+                "isAbout": "ctlo_end",
+                "isVis": "NA"
+            }
+        ],
+        "order": [
+            "timeline_title",
+            "dctlo005",
+            "dctlo008",
+            "dctlo009",
+            "timeline_instructions1",
+            "dctlo010",
+            "dctlo011",
+            "dctlo012",
+            "dctlo013",
+            "dctlo014",
+            "dctlo015",
+            "dctlo016",
+            "dctlo017",
+            "dctlo018",
+            "dctlo019",
+            "dctlo020",
+            "dctlo021",
+            "dctlo022",
+            "dctlo023",
+            "dctlo024",
+            "dctlo025",
+            "dctlo026",
+            "timeline_instructions2",
+            "ctlo0",
+            "dctlo027",
+            "dctlo028",
+            "timeline_instructions3",
+            "dctlo031",
+            "dctlo032",
+            "dctlo33",
+            "dctlo34",
+            "dctlo35",
+            "dctlo36",
+            "dctlo37",
+            "dctlo38",
+            "dctlo039",
+            "dctlo039_notes",
+            "dctlo040",
+            "dctlo041",
+            "dctlo042",
+            "dctlo043",
+            "dctlo044",
+            "dctlo045",
+            "dctlo046",
+            "dctlo047",
+            "dctlo048",
+            "dctlo049",
+            "dctlo050",
+            "dctlo051",
+            "dctlo052",
+            "dctlo053",
+            "dctlo054",
+            "dctlo055",
+            "dctlo056",
+            "dctlo057",
+            "dctlo058",
+            "dctlo059",
+            "dctlo060",
+            "dctlo061",
+            "dctlo062",
+            "dctlo063",
+            "dctlo064",
+            "ctlo_end"
+        ],
+        "shuffle": false
+    }
+}

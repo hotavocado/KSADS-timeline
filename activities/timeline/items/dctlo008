@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dctlo008",
+    "preamble": "NA",
+    "ui": {
+        "allow": [
+            "NA"
+        ],
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": "NA"
+    },
+    "question": "So, how old are you?",
+    "schema:description": "AGE"
+}

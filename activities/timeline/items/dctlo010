@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dctlo010",
+    "preamble": "Home",
+    "ui": {
+        "allow": [
+            "NA"
+        ],
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": "NA"
+    },
+    "question": "Where did you first live when you were growing up?",
+    "schema:description": "NA"
+}
